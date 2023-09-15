@@ -9,18 +9,18 @@ int main()
     printf("programe de calcule de distance entre deux point\n");
 
     printf("enter les  coordonnées X du 1er point\n");
-    scanf("%d",X1);
+    scanf("%d",&X1);
     printf("enter les  coordonnées Y du 1er point\n");
-    scanf("%d",Y1);
+    scanf("%d",&Y1);
     printf("enter les  coordonnées X du 2er point\n");
-    scanf("%d",X2);
+    scanf("%d",&X2);
     printf("enter les  coordonnées X du 2er point\n");
-    scanf("%d",Y2);
+    scanf("%d",&Y2);
     x=X1-X2;
     y=Y1-Y2;
     d=x*x+y*y;
     d=sqrt(d);
-    printf("d=%d",d);
+    printf("la distance d=%d",d);
 
     return 0;
 }
