@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1694871455 source:c:\users\youcode\desktop\challeng\bnaire\convertir\main.c
+	<stdio.h>
+	<stdlib.h>
+
